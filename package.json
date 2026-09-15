@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "next dev --hostname 0.0.0.0",
     "build": "next build",
-    "typecheck": "tsc --noEmit",
+    "typecheck": "next typegen && tsc --noEmit",
     "solana:keys": "tsx scripts/solana/prepare-keys.ts",
     "solana:status": "NODE_USE_ENV_PROXY=1 tsx scripts/solana/status.ts",
     "solana:build": "RUSTUP_TOOLCHAIN=1.89.0 anchor build --no-idl && RUSTUP_TOOLCHAIN=1.89.0 anchor idl build -p reward_vault -o idl/reward_vault.json -t idl/reward_vault.ts",
