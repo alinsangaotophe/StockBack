@@ -22,7 +22,7 @@
 - 静态 Next.js export；没有账户后端、Google OAuth Client ID、发卡平台接口、消费 webhook、实际股票发行方或真实交易路由。Google 认证、真实绑卡、链上提现与 Swap 尚未接入。
 - 新界面不调用旧版奖励合约，也不要求浏览器钱包签名。不发生链上广播。
 - `lib/stockback.ts` 是样例数据和纯演示账本。股票符号与价格是 UI fixtures，不对应仓库旧 Devnet 部署文件，不代表实际持仓或法律意义上的股票所有权。
-- 初始资产为 653 USD 的样例累计余额，消费列表只是一段近期样例，不是该余额的全部来源。9 月已结算奖励 30.97 USD，历史样例已结算 32.27 USD，待结算 0.25 USD。
+- 初始资产为 653 USD 的样例累计余额，消费列表只是一段近期样例，不是该余额的全部来源。9 月已结算奖励 27.23 USD，历史样例已结算 28.53 USD，待结算 0.25 USD。
 - 演示 Swap 费率 0.30%，以六位代币精度计算到账；这是固定样例报价。提现费为模拟 0 SOL。每次确认产生一条本地流水，刷新保留。
 - `stockback-workspace-v2` 存储单个本地演示账户。它不是鉴权边界，也不是实际资金账本。历史 wallet-scoped storage 不迁移，旧链上数据不修改。
 
@@ -37,3 +37,5 @@
 
 运行 `npm run typecheck`、`npm run build`、`npx tsx --test tests/stockback/*.test.ts`。
 浏览器截图保存在 `output/playwright/`。已验证演示账户、绑卡、超额拒绝、Swap 复核、余额更新与刷新恢复；最终浏览器验证记录见同目录内 verification.md。
+
+2026-09-15 mock 修正：Apple Store → AAPLx；NVIDIA GeForce NOW → NVDAX；Tesla Supercharger → TSLAx；Starbucks → SBUXx。金额为场景样例，不代表实际商品报价，奖励维持消费金额的 2%。
