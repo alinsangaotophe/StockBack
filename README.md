@@ -20,7 +20,7 @@ npx tsx --test tests/stockback/*.test.ts
 npm run build
 ```
 
-Node.js 24. Production output is in `out/`; `NEXT_PUBLIC_BASE_PATH` supports a subdirectory deployment. No private keys are needed. The existing GitHub Pages workflow is retained; this revision has not been published.
+Node.js 24. Production output is in `out/`; `NEXT_PUBLIC_BASE_PATH` supports a subdirectory deployment. No private keys are needed. The live site is https://alinsangaotophe.github.io/StockBack/. Source code lives on `main`; compiled static assets live on `gh-pages`. Publishing currently uses the CLI, not a source-triggered Actions workflow. Build with `NEXT_PUBLIC_BASE_PATH=/StockBack npm run build`, then update `gh-pages` with the contents of `out/` and a `.nojekyll` file. Never publish `.env` or private keys.
 
 ## Design and integration
 
