@@ -1,0 +1,30 @@
+{
+  "network": "devnet",
+  "recipient": "C6j6c7T2UmM216sXfxZN7ijPQYXcpnrJ3j89fSfCAnRp",
+  "claims": {
+    "AAPL": {
+      "receipt": "DAihDGtJcmGcFQeCqsRnGJBpAVCooCx2RmHUCjC5mjeJ",
+      "signature": "5G523o44N6ss31yRGmj8QXbn5YYQvjwXLTis8fwn1Tx8QBjdt94eJuVddk6SJTRgLCYZjuvSxtHad49zANgDtGvN",
+      "amount": "500000",
+      "verified": true
+    },
+    "NKE": {
+      "receipt": "AqVobsyNYhJkFwnbjHvuAeX2Hc8tH8o6gYUyRDDuFLGC",
+      "signature": "3NoSA3G117A5Mt7jsaqf8R5RrxeHiDtQ2SFtAtBTnJTtqj1Fw7kvALrKGksNYBt1N3HVfcsSaZNx32NQXCSW72bN",
+      "amount": "75000",
+      "verified": true
+    },
+    "TSLA": {
+      "receipt": "BE4HXoKXyMiqmtgwcYNFQveqDEuA8czrgGzSo1wNVpfk",
+      "signature": "56zsJzTM1zh5faemc3tmkoybB5c8N5bVBkB4EBKdML2q65Vo12yYSN8gK1tsCNgWfWj3fXQKPtafQWD1s97pVyEg",
+      "amount": "75000",
+      "verified": true
+    },
+    "SBUX": {
+      "receipt": "7HPBjVxD51fXbhTwq163y7pKGGULneuWCmxcrx7c3Tky",
+      "signature": "62ViS2aGh2JdVMBD21b2SEdYKiamst42sP98zMxLt6amRm1ZUizN3BjtNGuKmMMCLwe1dTmL975dEU8fs1TszhhJ",
+      "amount": "3000",
+      "verified": true
+    }
+  }
+}

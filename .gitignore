@@ -1,0 +1,17 @@
+node_modules/
+.next/
+.env*
+!.env.example
+*.tsbuildinfo
+playwright-report/
+test-results/
+/target/
+/.anchor/
+/.local/
+/data/
+*.sqlite*
+
+/.playwright-cli/
+/output/playwright/
+
+/out/

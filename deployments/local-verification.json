@@ -1,0 +1,32 @@
+{
+  "network": "localnet",
+  "binarySha256": "b38d60eb7fa7d0c0f4867e776691e97cbbb1eecd8210e1ac4d638e6415f706cd",
+  "testedAt": "2026-09-13T04:00:11.699Z",
+  "program": "8Jtn1EsbdEoPizw7rnSr6wAfefy8rJ2hkiJjftYXRfp5",
+  "passed": 23,
+  "checks": [
+    "Unauthorized initialization",
+    "Unauthorized allocation",
+    "Unauthorized pause",
+    "Zero allocation",
+    "Insufficient inventory",
+    "Failed allocation rolls back reward account",
+    "Precreated escrow remains usable; exact funding",
+    "Duplicate order",
+    "Wrong recipient",
+    "Wrong destination",
+    "Paused allocation",
+    "Recipient can claim while paused with sponsored ATA",
+    "Repeated claim",
+    "Allocation resumes after unpause",
+    "Unauthorized asset initialization",
+    "Cross-brand mint rejected",
+    "Independent brand config funds and claims correct mint",
+    "Legacy reward remains readable after multi-asset support",
+    "Only admin initializes faucet",
+    "Public faucet transfers fixed amount without operator signature",
+    "Duplicate demo receipt rejected",
+    "Sixth demo claim rejected",
+    "Failed duplicate and over-limit claims do not consume pool counters"
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "network": "devnet",
+  "genesisHash": "EtWTRABZaYq6iMfeYKouRu166VU2xqa1wcaWoxPkrZBG",
+  "program": "8Jtn1EsbdEoPizw7rnSr6wAfefy8rJ2hkiJjftYXRfp5",
+  "programData": "6wNAgm2CZ4HjzHPKjBmeLeyPzGV5sSZCbv29zTZiv8Z4",
+  "binarySha256": "b38d60eb7fa7d0c0f4867e776691e97cbbb1eecd8210e1ac4d638e6415f706cd",
+  "deployedBinaryMatches": true,
+  "upgradeAuthority": "7Pb5enShxV2gMePs9onjK59UsTRU3eLcZfQmhr7o1zoc",
+  "mint": "Ep5T5o9LEpx9A4Nz6YYNAQeaeVBW718XycbVfEPYBKdb",
+  "name": "Apple",
+  "symbol": "AAPL",
+  "metadataVerified": true,
+  "programTransactions": [
+    "62ViS2aGh2JdVMBD21b2SEdYKiamst42sP98zMxLt6amRm1ZUizN3BjtNGuKmMMCLwe1dTmL975dEU8fs1TszhhJ",
+    "56zsJzTM1zh5faemc3tmkoybB5c8N5bVBkB4EBKdML2q65Vo12yYSN8gK1tsCNgWfWj3fXQKPtafQWD1s97pVyEg",
+    "3NoSA3G117A5Mt7jsaqf8R5RrxeHiDtQ2SFtAtBTnJTtqj1Fw7kvALrKGksNYBt1N3HVfcsSaZNx32NQXCSW72bN",
+    "5G523o44N6ss31yRGmj8QXbn5YYQvjwXLTis8fwn1Tx8QBjdt94eJuVddk6SJTRgLCYZjuvSxtHad49zANgDtGvN",
+    "3w2yHkSAnffWHcQxDoC4vDzkAaSov7LEFMzYnUpAJyZxU1VPKQNmqYbSsEcPZ5CgWQPqfvm5eYwEgpTHnuA4dHg4",
+    "3emYrrmKMus543NJNcStPg3c84mEqUyKgN3jCaMx8Yun3TnxCL3H6ngNvQN5VYQqRUk9R3rFUBBcUjRE1nymN1SM",
+    "27yyB4u3Dnq1FDXwdGdMQ1UtvKARPLu2rPyiqvVPKAc5rkDVtvL6tMhHaiYMrf37uoaz9vrmjfapvedhvudhThDS",
+    "5jB3jZpvgLYgR17mXv6xD2Etyzf3iUqjpJXzi1R9vhTVWaWrgSbAiXTnxBojsPHwrofPw1Cftx3tgB8p1krL2dhx",
+    "2rHZx2ToAj3G5k9TBm9c8NvkJiLwys6urRoTNFSRXk8ZVjkrsEzWwz31ecv4HSXS6P6hZz7n1CYQ4QbzTMcPiWBF",
+    "tmbqaaP2gs5DymfoHimXMJoX3t3pTPSCq7L47CYRnZpNwRcyLKHSV7ke8umbTjsakPt3vbrLCfFJ8PNCVBxcEC8"
+  ],
+  "mintTransactions": [
+    "5G523o44N6ss31yRGmj8QXbn5YYQvjwXLTis8fwn1Tx8QBjdt94eJuVddk6SJTRgLCYZjuvSxtHad49zANgDtGvN",
+    "23uud1FDTahQSQMNkjZUwF18gVfrbHQwhB5PGCyKGYCVovrpMBCkdBTvdihhNAi4v9wGdPYpzoTVgqi71LHdEzzG",
+    "5jB3jZpvgLYgR17mXv6xD2Etyzf3iUqjpJXzi1R9vhTVWaWrgSbAiXTnxBojsPHwrofPw1Cftx3tgB8p1krL2dhx",
+    "3dsK6YH2sRhaE8riZDzq4iDKQnBjAJyCuVciQUQfUPBDQozoqRSDA5KeHFc9M541dxJV1jAM3yPJa5Zxn5kG49U6",
+    "63BkoDXa74RgKtNpFee5y3KCpn79zTYCkT7NYDCV1XFgNdyvkQFvFwaanzgDMB3eqoUchY82wrQe1yhYPQ8aBkQ6",
+    "67pJ9M8spdVXMt4dMZgVvo5Qdqd6WhBuPZC2DLavDhAnNYDfWTemrMfEGQTMXjt6SfxHbyrTVvRQuLokEPAPCE31",
+    "DQhZs2UmZknBJp99LtdDyQnRaAx8a4S6NRUfzVFgktDdA81h2bnvLGB3WpcDKmeT1pXbaAQ9yTds9LJGRro8wV2",
+    "JwPnpVNsXC61wyLdoMWAwoudFpLKc8xsKWnxnKNGU3aKKfDpDLZW9gyaxXTLgEXmLutGvtqbiGW7GPH8rJbRGWN",
+    "2eavkfodAEhNRtLhfU73RRCnPtDUavyFUJqUUcaqw2caTkZSYRiD48ELVTsdBnrJwh297P6uMajferfsN4xccJFs",
+    "2ikw3KNSJHphDrJ23kosHV58QcY4QvWXZbNrmu4j9Ldnjo1pQRpHCSXij7paBhAATM97u27tjzL4gWdfLoWujVhM"
+  ],
+  "verifiedAt": "2026-09-13T04:10:19.919Z"
+}

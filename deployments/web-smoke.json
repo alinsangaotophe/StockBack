@@ -1,0 +1,19 @@
+{
+  "orderId": "26b69935-b638-4327-ac38-b3f7bfba508a",
+  "recipient": "C6j6c7T2UmM216sXfxZN7ijPQYXcpnrJ3j89fSfCAnRp",
+  "allocationSignature": "63BkoDXa74RgKtNpFee5y3KCpn79zTYCkT7NYDCV1XFgNdyvkQFvFwaanzgDMB3eqoUchY82wrQe1yhYPQ8aBkQ6",
+  "claimSignature": "3dsK6YH2sRhaE8riZDzq4iDKQnBjAJyCuVciQUQfUPBDQozoqRSDA5KeHFc9M541dxJV1jAM3yPJa5Zxn5kG49U6",
+  "verifiedAt": "2026-09-13T02:11:38.730Z",
+  "amount": "0.5 AAPL",
+  "checks": [
+    "signed login",
+    "nonce replay rejection",
+    "idempotent order",
+    "real escrow funding",
+    "funded refund rejected",
+    "unsigned claim rejected",
+    "modified transaction rejected",
+    "recipient-signed sponsored claim",
+    "duplicate claim reconciliation"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "network": "devnet",
+  "name": "Tesla",
+  "symbol": "TSLA",
+  "decimals": 6,
+  "mint": "8AacDWxAy1ckoX8fMJi5w2gB3A4KC6bxSf8EmrLHTq5G",
+  "metadata": "CMUMXkksnRUw3eYab1y42bpvWZjnLNxMKmBPBwGzVzxB",
+  "inventory": "3RH3ofGtdgwHzVJUEKFDJTPahcJGBcR25ARe3yNFMpXb",
+  "supplyBaseUnits": "10000000000",
+  "mintAuthority": "7Pb5enShxV2gMePs9onjK59UsTRU3eLcZfQmhr7o1zoc",
+  "explorer": "https://explorer.solana.com/address/8AacDWxAy1ckoX8fMJi5w2gB3A4KC6bxSf8EmrLHTq5G?cluster=devnet",
+  "disclosure": "Test token only. No Tesla shares, backing, redemption rights, or market value.",
+  "updatedAt": "2026-09-13T02:20:54.564Z",
+  "config": "5DPnYdkZ1qubQddSXToKb3YPHSD7QzYAAzeHb58XCzyg",
+  "initializeSignature": "5cNRLi4ULmZpKEvwAqp2xnVDXF39zESu389x7pWfZDDE29kEbLuF1je1Fy2j9A1avdWEroCgj5hq9dGvmMK6aWnA",
+  "metadataVerified": true
+}

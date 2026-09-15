@@ -1,0 +1,25 @@
+{
+  "network": "devnet",
+  "pools": {
+    "AAPL": {
+      "pool": "cK6exjzLUt7xfv9D7WXtNX39KYn5DdqfEuXfsnR9rB8",
+      "amount": 500000,
+      "remaining": "500000000"
+    },
+    "NKE": {
+      "pool": "3a7kKFBQxH6gocWfYerBc27bXgRZwKMYQhijyjX6MawA",
+      "amount": 75000,
+      "remaining": "75000000"
+    },
+    "TSLA": {
+      "pool": "7VJ7DX9W17YDskGSU1yNuV9mBNvhHTUiLhgiuXpW3bx2",
+      "amount": 75000,
+      "remaining": "75000000"
+    },
+    "SBUX": {
+      "pool": "9CYxw4H8LJdQ5xwEzFBZLtBjKGYooivJZid98Y8nhBky",
+      "amount": 3000,
+      "remaining": "3000000"
+    }
+  }
+}

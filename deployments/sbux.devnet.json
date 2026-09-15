@@ -1,0 +1,17 @@
+{
+  "network": "devnet",
+  "name": "Starbucks",
+  "symbol": "SBUX",
+  "decimals": 6,
+  "mint": "3PKCekCs4o11p89oWinrzP2LeV4xuemKPyKfGyJ41rjX",
+  "metadata": "5oRP2ofvhqquVnLvKi3dc9Er8VicuWFSdR6Hhq7SbBVi",
+  "inventory": "A9TWCrgh6qGymu1b9DSVTCGGQpdrBHN8xTmYhwhaBjV7",
+  "supplyBaseUnits": "10000000000",
+  "mintAuthority": "7Pb5enShxV2gMePs9onjK59UsTRU3eLcZfQmhr7o1zoc",
+  "explorer": "https://explorer.solana.com/address/3PKCekCs4o11p89oWinrzP2LeV4xuemKPyKfGyJ41rjX?cluster=devnet",
+  "disclosure": "Test token only. No Starbucks shares, backing, redemption rights, or market value.",
+  "updatedAt": "2026-09-13T02:21:03.490Z",
+  "config": "DSp1nckYBZfP1PEKEwYPK793eHvS7cZoGPwyzqUqq27C",
+  "initializeSignature": "AiSbRCJPxnDAaWbhtp5we5FtsVrSDh925XGxqej4rEVjWTVkNyrCrcnNNJr4QStfmwYKN8E5qM17RJbrrREEyM9",
+  "metadataVerified": true
+}

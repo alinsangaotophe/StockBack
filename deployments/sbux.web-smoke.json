@@ -1,0 +1,12 @@
+{
+  "orderId": "9cc46975-58fb-4ffb-9f81-d388cb46c5ae",
+  "verified": true,
+  "symbol": "SBUX",
+  "mint": "3PKCekCs4o11p89oWinrzP2LeV4xuemKPyKfGyJ41rjX",
+  "recipient": "C6j6c7T2UmM216sXfxZN7ijPQYXcpnrJ3j89fSfCAnRp",
+  "tokenAmount": "3000",
+  "allocationSignature": "4PdpGrYrTZjZW9UA9G6tSQs5Tc233iGdKqtVokGK3UsiWJZMCEmrYB5wgWDsvKhSnVtZsxQo387njWjZ8XRgVtY4",
+  "claimSignature": "5GvFqbKwhBLzED555tF6EbjRsZCR5WcLHT9z6L8Db2oukpYFShLpvM7tBJMhBPQfD2SQ5e7hsXVxTQgNw4KbgKwB",
+  "balanceBaseUnits": "3000",
+  "verifiedAt": "2026-09-13T02:28:33.778Z"
+}

@@ -1,0 +1,17 @@
+{
+  "network": "devnet",
+  "name": "Nike",
+  "symbol": "NKE",
+  "decimals": 6,
+  "mint": "9FZ2m8daWKbWXA7mH5f2RLmz2aPxq7nPEQ4nZqjYAZ1b",
+  "metadata": "D8wBL1sgJFu5DkwEJx9BokHGAkg6VJbPpFawWnreezzY",
+  "inventory": "5VruW66irTmj8RptJUFLHLaCp1aPyBAXqcVyXYdbVKLq",
+  "supplyBaseUnits": "10000000000",
+  "mintAuthority": "7Pb5enShxV2gMePs9onjK59UsTRU3eLcZfQmhr7o1zoc",
+  "explorer": "https://explorer.solana.com/address/9FZ2m8daWKbWXA7mH5f2RLmz2aPxq7nPEQ4nZqjYAZ1b?cluster=devnet",
+  "disclosure": "Test token only. No Nike shares, backing, redemption rights, or market value.",
+  "updatedAt": "2026-09-13T02:20:45.182Z",
+  "config": "9L45Rn7yJ6G2DBWyXEddkBHdxWayvsMqjun6GWWV9G3D",
+  "initializeSignature": "Jc9nLvLvnAXTcMReVBWKQUQr4yuyrarKC9qWDjRbyNoTghVGVaoQDCGqiGjwjqgfpeGS2HgBQuEMCvE5LaEX4fc",
+  "metadataVerified": true
+}

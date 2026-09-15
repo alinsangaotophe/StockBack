@@ -1,0 +1,24 @@
+[package]
+name = "reward-vault"
+version = "0.1.0"
+edition = "2021"
+description = "Recipient-bound, fully funded investment reward escrow for Own on Solana Devnet"
+
+[lib]
+crate-type = ["cdylib", "lib"]
+name = "reward_vault"
+
+[features]
+default = []
+cpi = ["no-entrypoint"]
+no-entrypoint = []
+no-idl = []
+no-log-ix-name = []
+anchor-debug = []
+custom-heap = []
+custom-panic = []
+idl-build = ["anchor-lang/idl-build", "anchor-spl/idl-build", "anchor-spl/token_2022"]
+
+[dependencies]
+anchor-lang = { version = "=0.32.1", features = ["init-if-needed"] }
+anchor-spl = { version = "=0.32.1", default-features = false, features = ["token", "associated_token"] }

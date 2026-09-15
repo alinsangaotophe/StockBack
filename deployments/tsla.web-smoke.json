@@ -1,0 +1,12 @@
+{
+  "orderId": "449d03e7-4afc-43d3-9923-62bc3bb4a0f8",
+  "verified": true,
+  "symbol": "TSLA",
+  "mint": "8AacDWxAy1ckoX8fMJi5w2gB3A4KC6bxSf8EmrLHTq5G",
+  "recipient": "C6j6c7T2UmM216sXfxZN7ijPQYXcpnrJ3j89fSfCAnRp",
+  "tokenAmount": "75000",
+  "allocationSignature": "BqaESYEXhynLET1NU4S7FxYFmdqwjSo8hXcg3tq7d7AQpRGSiiTmWy9FZ51EetB6an7QNgQiWtNnNzYHSDJkxSW",
+  "claimSignature": "38Nch2qZnxzcRqDuYsBsPZ2E8D2yLCMiMWQmRJZy4p5DFoRwhFbgu945egeFXSpdEm94JgjR3kraq5aqQBMmeKBo",
+  "balanceBaseUnits": "75000",
+  "verifiedAt": "2026-09-13T02:28:44.532Z"
+}

@@ -1,0 +1,14 @@
+{
+  "network": "devnet",
+  "order": "devnet-smoke-v1",
+  "recipient": "C6j6c7T2UmM216sXfxZN7ijPQYXcpnrJ3j89fSfCAnRp",
+  "reward": "wDzme4jPHugTmce874A37bhotz7Ef4L7h5fmPr3mZ1B",
+  "amount": "0.25",
+  "symbol": "AAPL",
+  "claimed": true,
+  "repeatedClaimRejected": true,
+  "allocateSignature": "2eavkfodAEhNRtLhfU73RRCnPtDUavyFUJqUUcaqw2caTkZSYRiD48ELVTsdBnrJwh297P6uMajferfsN4xccJFs",
+  "claimSignature": "JwPnpVNsXC61wyLdoMWAwoudFpLKc8xsKWnxnKNGU3aKKfDpDLZW9gyaxXTLgEXmLutGvtqbiGW7GPH8rJbRGWN",
+  "explorer": "https://explorer.solana.com/address/wDzme4jPHugTmce874A37bhotz7Ef4L7h5fmPr3mZ1B?cluster=devnet",
+  "verifiedAt": "2026-09-12T15:16:40.983Z"
+}

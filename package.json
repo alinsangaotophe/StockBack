@@ -1,0 +1,49 @@
+{
+  "name": "consume-to-own",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --hostname 0.0.0.0",
+    "build": "next build",
+    "typecheck": "tsc --noEmit",
+    "solana:keys": "tsx scripts/solana/prepare-keys.ts",
+    "solana:status": "NODE_USE_ENV_PROXY=1 tsx scripts/solana/status.ts",
+    "solana:build": "RUSTUP_TOOLCHAIN=1.89.0 anchor build --no-idl && RUSTUP_TOOLCHAIN=1.89.0 anchor idl build -p reward_vault -o idl/reward_vault.json -t idl/reward_vault.ts",
+    "solana:test": "tsx scripts/solana/test-local.ts",
+    "solana:token": "NODE_USE_ENV_PROXY=1 tsx scripts/solana/setup-token.ts",
+    "solana:deploy": "NODE_USE_ENV_PROXY=1 tsx scripts/solana/deploy.ts",
+    "solana:init": "NODE_USE_ENV_PROXY=1 tsx scripts/solana/initialize.ts",
+    "solana:smoke": "NODE_USE_ENV_PROXY=1 tsx scripts/solana/smoke.ts",
+    "solana:verify": "NODE_USE_ENV_PROXY=1 tsx scripts/solana/verify.ts",
+    "solana:upload": "NODE_USE_ENV_PROXY=1 tsx scripts/solana/upload-buffer.ts",
+    "test:wallet": "tsx --test tests/wallet/*.test.ts",
+    "test:stockback": "tsx --test tests/stockback/*.test.ts"
+  },
+  "dependencies": {
+    "@coral-xyz/anchor": "0.32.1",
+    "@metaplex-foundation/mpl-token-metadata": "3.4.0",
+    "@metaplex-foundation/umi": "1.5.1",
+    "@metaplex-foundation/umi-bundle-defaults": "1.5.1",
+    "@solana/spl-token": "0.4.14",
+    "@solana/wallet-standard-features": "^1.5.0",
+    "@solana/web3.js": "1.98.4",
+    "@wallet-standard/app": "^1.1.1",
+    "bs58": "6.0.0",
+    "buffer": "^6.0.3",
+    "dotenv": "17.2.3",
+    "lucide-react": "1.45.0",
+    "next": "16.3.5",
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "server-only": "^0.0.1",
+    "undici": "^8.10.2"
+  },
+  "devDependencies": {
+    "@types/node": "22.20.2",
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
+    "prettier": "3.9.6",
+    "tsx": "4.23.13",
+    "typescript": "7.0.2"
+  }
+}

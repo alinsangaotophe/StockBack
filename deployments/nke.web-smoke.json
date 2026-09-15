@@ -1,0 +1,12 @@
+{
+  "orderId": "fdebb6db-82fa-42a5-b910-a03f930b0e79",
+  "verified": true,
+  "symbol": "NKE",
+  "mint": "9FZ2m8daWKbWXA7mH5f2RLmz2aPxq7nPEQ4nZqjYAZ1b",
+  "recipient": "C6j6c7T2UmM216sXfxZN7ijPQYXcpnrJ3j89fSfCAnRp",
+  "tokenAmount": "75000",
+  "allocationSignature": "54i3RXfYi3YzMWQ3WU4KvbyZaWiEjU7mFqAy1yc1vC6f8aRuEw8jUA11ziJHGWZgEx6osWPHyEkhfK2nzoqoPUbu",
+  "claimSignature": "2RSERXgATfCHJ5iAmcofbiPUe8fVBas65GfoNwR7FuwLNeDhiCwWUSXobz3iuK3RGqJeCDsLGk14YLQSgSHeAi8u",
+  "balanceBaseUnits": "75000",
+  "verifiedAt": "2026-09-13T02:28:39.010Z"
+}

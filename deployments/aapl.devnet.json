@@ -1,0 +1,16 @@
+{
+  "network": "devnet",
+  "name": "Apple",
+  "symbol": "AAPL",
+  "decimals": 6,
+  "mint": "Ep5T5o9LEpx9A4Nz6YYNAQeaeVBW718XycbVfEPYBKdb",
+  "metadata": "9HzvQDMuxxm5RVFN4UbYqTqjuEKZqFzzQtaHq5erfSHH",
+  "inventory": "2eZbF9qe8GgXUrMYc9LBQjpfYMeUvmp7YxGPWK8MaFVA",
+  "supplyBaseUnits": "10000000000",
+  "mintAuthority": "7Pb5enShxV2gMePs9onjK59UsTRU3eLcZfQmhr7o1zoc",
+  "explorer": "https://explorer.solana.com/address/Ep5T5o9LEpx9A4Nz6YYNAQeaeVBW718XycbVfEPYBKdb?cluster=devnet",
+  "disclosure": "Test token only. No Apple shares, backing, redemption rights, or market value.",
+  "updatedAt": "2026-09-12T14:58:33.711Z",
+  "config": "EAJUhJ7wcfLB37pzQ6NYEgudHr2ckykPrgC8tA42H9L8",
+  "metadataVerified": true
+}
