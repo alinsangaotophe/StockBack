@@ -294,53 +294,38 @@ export default function OwnApp() {
   }
   return (
     <div className="app-shell">
-      <aside className="sidebar">
-        <Brand />
-        <div className="workspace-label">YOUR EVERYDAY, INVESTED</div>
-        <nav aria-label="Main navigation">
-          {(
-            [
-              { title: "Overview", icon: LayoutGrid },
-              { title: "Activity", icon: ArrowDownUp },
-              { title: "Account", icon: CreditCard },
-            ] as const
-          ).map(({ title, icon: Icon }) => (
-            <button
-              key={title}
-              className={page === title ? "nav-link selected" : "nav-link"}
-              aria-current={page === title ? "page" : undefined}
-              onClick={() => setPage(title)}
-            >
-              <Icon size={19} />
-              {title}
-              {page === title && <span className="nav-dot" />}
-            </button>
-          ))}
-        </nav>
-        <div className="sidebar-bottom">
-          <div className="sidebar-note">
-            <span className="tiny-flower">✳</span>
-            <h3>
-              A little today.
-              <br />
-              More tomorrow.
-            </h3>
-            <p>Turn the things you buy into the companies you own.</p>
-          </div>
-          <div className="network">
-            <span />
-            Solana network
-            <ArrowUpRight size={14} />
-          </div>
-          <small className="demo-label">Interactive demo · Sample assets</small>
-        </div>
-      </aside>
       <div className="main-shell">
         <header className="topbar">
-          <span className="breadcrumb">
-            Workspace <ChevronRight size={13} />
-            <strong>{page}</strong>
-          </span>
+          <div className="header-brand">
+            <Brand />
+            <span>Everyday, invested.</span>
+          </div>
+          <div className="header-pattern" aria-hidden="true">
+            {Array.from({ length: 16 }, (_, i) => (
+              <span key={i}>
+                {i % 3 === 0 ? (
+                  <CreditCard />
+                ) : i % 3 === 1 ? (
+                  <Sparkles />
+                ) : (
+                  <Wallet />
+                )}
+              </span>
+            ))}
+          </div>
+          <label className="header-search">
+            <Search size={17} />
+            <input
+              aria-label="Search purchases"
+              placeholder="Search a brand or stock…"
+              value={query}
+              onChange={(e) => {
+                setQuery(e.target.value);
+                setPage("Activity");
+              }}
+            />
+            <span>⌕</span>
+          </label>
           <div className="top-actions">
             <span className="preview-tag">DEMO</span>
             <button
@@ -355,6 +340,43 @@ export default function OwnApp() {
             </button>
           </div>
         </header>
+        <div className="navigation-bar">
+          <nav aria-label="Main navigation">
+            {(
+              [
+                { title: "Overview", icon: LayoutGrid },
+                { title: "Activity", icon: ArrowDownUp },
+                { title: "Account", icon: CreditCard },
+              ] as const
+            ).map(({ title, icon: Icon }) => (
+              <button
+                key={title}
+                className={page === title ? "nav-link selected" : "nav-link"}
+                aria-current={page === title ? "page" : undefined}
+                onClick={() => setPage(title)}
+              >
+                <Icon size={19} />
+                {title}
+                {page === title && <span className="nav-dot" />}
+              </button>
+            ))}
+          </nav>
+          <span className="nav-note">
+            <span />
+            Solana · Demo workspace
+          </span>
+          <button
+            className="button primary nav-card"
+            onClick={() => {
+              setPage("Account");
+              if (!account.signedIn) open("login");
+              else open("card");
+            }}
+          >
+            <CreditCard size={15} />
+            {account.card ? "My U Card" : "Link U Card"}
+          </button>
+        </div>
         <main id="main">
           <div className="page-heading">
             <div>
@@ -404,12 +426,12 @@ export default function OwnApp() {
                     </span>
                     <span>Illustrative values</span>
                   </div>
-                  <div className="portfolio-art" aria-hidden="true">
-                    <div className="orbit orbit-one" />
-                    <div className="orbit orbit-two" />
-                    <div className="orbit orbit-three" />
-                    <span className="art-star">✳</span>
-                  </div>
+                  <img
+                    className="portfolio-illustration"
+                    src={`${process.env.NEXT_PUBLIC_BASE_PATH || ""}/images/portfolio-friend.png`}
+                    alt=""
+                    aria-hidden="true"
+                  />
                   <div className="portfolio-bottom">
                     <span>
                       {account.balances.filter((x) => x > 0).length} stocks in
@@ -453,6 +475,32 @@ export default function OwnApp() {
                       Settled stock rewards
                     </span>
                     <strong>2% reward rate</strong>
+                  </div>
+                </div>
+                <div className="card-summary">
+                  <div className="section-kicker">
+                    YOUR EVERYDAY CARD <CreditCard size={17} />
+                  </div>
+                  <div className="mini-card" aria-hidden="true">
+                    <span>stockback ↗</span>
+                    <CreditCard size={22} />
+                    <strong>•••• {account.card || "0000"}</strong>
+                    <b>U</b>
+                  </div>
+                  <div className="card-summary-bottom">
+                    <span>
+                      <i />
+                      {account.card
+                        ? "Connected · Ready to earn"
+                        : "Good things start with a card."}
+                    </span>
+                    <button
+                      aria-label="Open card settings"
+                      className="icon-button"
+                      onClick={() => setPage("Account")}
+                    >
+                      <ArrowUpRight size={18} />
+                    </button>
                   </div>
                 </div>
               </section>

@@ -24,6 +24,8 @@ Node.js 24. Production output is in `out/`; `NEXT_PUBLIC_BASE_PATH` supports a s
 
 ## Design and integration
 
+Latest visual direction: [Lavender dashboard refresh](docs/14-lavender-refresh.md).
+
 See [Current product and design](docs/13-stockback-workspace.md) for the three journeys, Awwwards references, data boundaries, and concrete requirements for Google, the card provider and real trading.
 
 The earlier Solana programs, scripts, deployment evidence and wallet helpers remain as historical backend research; the current interface does not import their reward client or sign/broadcast transactions. Documents 01–12 describe earlier stages and are superseded for the current frontend by document 13.
